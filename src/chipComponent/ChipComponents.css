@@ -1,0 +1,46 @@
+/* ChipComponents.css */
+.userDataContainer {
+    background-color: white;
+    width: 20rem;
+    height: auto;
+    max-height: 15rem;
+    position: absolute;
+    overflow-y: scroll;
+    box-shadow: 0rem 0rem 0.2rem black;
+    border-radius: 0.4rem;
+    z-index: 400;
+    top: 90%;
+}
+
+.userDataContainer::-webkit-scrollbar {
+    width: 0.3rem;
+}
+
+.userDataContainer::-webkit-scrollbar-track {
+    box-shadow: 0rem 0rem 0.1rem black;
+}
+
+.userDataContainer::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+    border-radius: 20rem;
+}
+
+.individualData {
+    margin: .5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+}
+
+.imageDp {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 20rem;
+}
+
+.UserName {
+    font-weight: bold;
+}

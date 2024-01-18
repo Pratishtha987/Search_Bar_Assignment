@@ -1,0 +1,66 @@
+/* App.css */
+
+.heroText {
+  display: flex;
+  justify-content: center;
+  color: blue;
+}
+
+.datasection {
+  display: flex;
+  justify-content: center;
+}
+
+.dataContainer {
+  width: 70%;
+  margin: 3rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-bottom: 3px solid navy;
+}
+
+#name {
+  padding: 1rem 0.5rem;
+  outline: none;
+  border: none;
+  background-color: white;
+}
+
+#name ::after {
+  content: "";
+  border: 2px solid red;
+}
+
+
+.selectedData {
+  margin: 0.4rem;
+  padding-right: 0.1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+  background-color: #dfdfdf;
+  border-radius: 2rem;
+  gap: 0.2rem;
+}
+
+.selectedImage {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 20rem;
+  display: flex;
+  align-items: center;
+}
+
+.removeUserButton{
+  border: none;
+  background-color: transparent;
+}
+
+
+.dataandInputContainer{
+  position: relative;
+   z-index: 1;
+}
