@@ -1,14 +1,3 @@
-// import React from 'react'
-// import "../ChipComponents.css";
-
-// export const ChipComponents = () => {
-//   return (
-//     <div>ChipComponents</div>
-//   )
-// }
-
-// ChipComponents.js
-
 import React, { useEffect, useState } from 'react'
 import './ChipComponents.css'
 
@@ -75,6 +64,7 @@ export default function ChipComponents({ searchData, onSelectUser, availableData
                     </div>
                 ))}
             </div>
-        </>
-    )
+        </>
+    )
 }
+
